@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+html, body {
+    width: 100%;
+    background: #f1f1f1 url('../img/anime_cliff_fantasy.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+div#titleBox {
+    width: 500px;
+    margin: 10px auto 0;
+    text-align: center;
+    padding: 0 30px;
+}
+
+div#titleBox h3#title {
+    color: white;
+    font-size: 22px;
+    padding: 20px 0;
+    font-family: calibri, helvetica, arial, sans-serif;
+    border-bottom: 2px solid #fff;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+div#wrapper {
+    width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+div#programWindow {
+    width: 100%;
+    height: 100%;
+}
+
+div#alertBox {
+    width: 100%;
+    height: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 80px;
+    text-align: center;
+    border-bottom: 1px dashed orange;
+    font-family: helvetica, arial, sans-serif;
+}
+
+div#budgetBox {
+    width: 100%;
+    margin: 15px 0 0;
+    padding: 0 0 15px;
+    border-bottom: 1px dashed orange;
+}
+
+div#budgetBox div.bx-01 {
+    float: left;
+    width: 54%;
+    text-align: center;
+}
+
+div#budgetBox div.bx-02 {
+    float: left;
+    width: 46%;
+}
+
+div#budgetBox div.bx-02 p {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+div#budgetBox div.bx-01 input {
+    width: 120px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid orange;
+}
+
+div#budgetBox div.bx-01 button#setLimit {
+    background: orange;
+    border: none;
+    color: #111;
+    margin: 15px 0 0;
+    padding: 5px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    top: 0; left: 0;
+}
+
+div#budgetBox div.bx-01 button#setLimit:hover {
+    background: #ffc75b;
+    color: #000;
+}
+
+div#budgetBox div.bx-01 button#setLimit:active {
+    top: 1px;
+}
+
+div#budgetBox div.bx-02 div#totalBudget {
+    width: 80%;
+    height: 30px;
+    margin: 0 auto;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid green;
+}
+
+div#itemsBox {
+    width: 100%;
+    margin: 30px 0 0;
+}
+
+div#itemsBox table tr th {
+    height: 40px;
+    border-top: 1px dotted orange;
+    border-bottom: 1px dotted orange;
+    border-right: 1px dotted orange;
+}
+
+div#itemsBox table tr th:last-child {
+    border-right: none;
+}
+
+div#itemsBox table tr td {
+    width: 130px;
+    height: 40px;
+    text-align: center;
+}
+
+div#itemsBox table tr td button {
+    width: 80px;
+    border: none;
+    background: orange;
+    padding: 5px 0;
+    color: #111;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    top: 0; left: 0;
+}
+
+div#itemsBox table tr td button:hover {
+    background: #ffc75b;
+    color: #000;
+}
+
+div#itemsBox table tr td button:active {
+    top: 1px;
+}
+
+div#footer {
+    text-align: center;
+    font-size: 12px;
+    color: #444;
+    margin: 20px 0 0;
+    padding: 20px 0 0;
+    border-top: 1px dashed orange;
+}
+
+div#footer p a {
+    text-decoration: none;
+    color: #444;
+}
+
+div#footer p a:hover {
+    text-decoration: underline;
+    color: orangered;
+}
